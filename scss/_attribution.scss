@@ -1,0 +1,15 @@
+.attribution {
+	position: fixed;
+	bottom: 0;
+	color: #fff;
+    font-size: 0.8rem;
+
+	a {
+		color: $cyan;
+
+		&:hover {
+			color: $soft-blue;
+			@include transition-ease;
+		}
+	}
+}
