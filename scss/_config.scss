@@ -1,3 +1,14 @@
 $dark-blue-main: hsl(217, 54%, 11%);
 $dark-blue-card: hsl(216, 50%, 16%);
 $dark-blue-line: hsl(215, 32%, 27%);
+
+$soft-blue: hsl(215, 51%, 70%);
+$cyan: hsl(178, 100%, 50%);
+
+@mixin transition-ease{
+    transition: all 0.3s ease-in-out;
+}
+
+$bold: 600;
+$med: 400;
+$light: 300;

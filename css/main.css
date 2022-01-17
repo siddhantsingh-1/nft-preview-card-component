@@ -1,4 +1,127 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+.card {
+  width: 320px;
+  height: 535px;
+  background-color: #14253d;
+  border-radius: 3%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card__content {
+  width: 85%;
+  height: 100%;
+}
+
+.card__content figure {
+  width: 100%;
+  margin-top: 1.5rem;
+}
+
+.card__content figure img {
+  width: 100%;
+  border-radius: 4%;
+}
+
+.card__content h2 {
+  color: #fff;
+  font-weight: 600;
+  margin: 1.2rem 0 1rem 0;
+  font-size: 1.3rem;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.card__content h2:hover {
+  color: #00fff7;
+  cursor: pointer;
+}
+
+.card__content p {
+  color: #8bacda;
+  font-weight: 300;
+  font-size: 0.88rem;
+}
+
+.card__content .price-and-time {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1.4rem 0 1.2rem 0;
+  border-bottom: 1.1px solid #2f415b;
+}
+
+.card__content .price-and-time .price,
+.card__content .price-and-time .time {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.card__content .price-and-time .price h6 {
+  font-size: 13px;
+  font-weight: 400;
+  color: #00fff7;
+  margin-left: 0.3rem;
+}
+
+.card__content .price-and-time .time p {
+  margin-left: 0.4rem;
+  font-size: 13px;
+}
+
+.card__content .price-and-time img {
+  height: 16px;
+}
+
+.card__content .creator {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 1rem;
+  font-weight: 300;
+}
+
+.card__content .creator .pfp {
+  width: 2rem;
+  border: 1px solid white;
+  border-radius: 100%;
+  margin-left: 0.3rem;
+}
+
+.card__content .creator p {
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+}
+
+.card__content .creator p span {
+  color: #fff;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.card__content .creator p span:hover {
+  color: #00fff7;
+  cursor: pointer;
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
