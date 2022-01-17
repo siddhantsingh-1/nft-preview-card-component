@@ -1,0 +1,60 @@
+@include media-lg {
+	.card {
+		height: 425px;
+		width: 24.6%;
+
+		&__content {
+			width: 88%;
+
+			figure {
+				margin-top: 1rem;
+			}
+
+			h2 {
+				font-size: 1rem;
+				margin: 0.6rem 0 0.7rem 0.2rem;
+			}
+
+			p {
+				width: 80%;
+				font-size: 0.75rem;
+				margin-left: 0.2rem;
+			}
+
+			.price-and-time {
+				padding: 0.75rem 0 0.75rem 0.2rem;
+
+				.price {
+					h6 {
+						font-size: 10px;
+					}
+				}
+
+				.time {
+					margin-right: 1rem;
+					p {
+						font-size: 10px;
+					}
+				}
+
+				img {
+					height: 13px;
+				}
+			}
+
+			.creator {
+				margin-top: 0.6rem;
+
+				.pfp {
+					width: 1.5rem;
+					margin-top: 0.1rem;
+				}
+
+				p {
+					margin-top: 0.4rem;
+					margin-left: 0.7rem;
+				}
+			}
+		}
+	}
+}

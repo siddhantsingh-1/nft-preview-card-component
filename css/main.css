@@ -122,6 +122,54 @@
   cursor: pointer;
 }
 
+@media only screen and (min-width: 1000px) {
+  .card {
+    height: 425px;
+    width: 24.6%;
+  }
+  .card__content {
+    width: 88%;
+  }
+  .card__content figure {
+    margin-top: 1rem;
+  }
+  .card__content h2 {
+    font-size: 1rem;
+    margin: 0.6rem 0 0.7rem 0.2rem;
+  }
+  .card__content p {
+    width: 80%;
+    font-size: 0.75rem;
+    margin-left: 0.2rem;
+  }
+  .card__content .price-and-time {
+    padding: 0.75rem 0 0.75rem 0.2rem;
+  }
+  .card__content .price-and-time .price h6 {
+    font-size: 10px;
+  }
+  .card__content .price-and-time .time {
+    margin-right: 1rem;
+  }
+  .card__content .price-and-time .time p {
+    font-size: 10px;
+  }
+  .card__content .price-and-time img {
+    height: 13px;
+  }
+  .card__content .creator {
+    margin-top: 0.6rem;
+  }
+  .card__content .creator .pfp {
+    width: 1.5rem;
+    margin-top: 0.1rem;
+  }
+  .card__content .creator p {
+    margin-top: 0.4rem;
+    margin-left: 0.7rem;
+  }
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
