@@ -20,3 +20,6 @@
 
 #Avoid Design Files
 design/
+
+#Avoid Style Guide
+style-guide.md
