@@ -17,3 +17,6 @@
 
 #Avoid .map CSS file
 *.css.map
+
+#Avoid Design Files
+design/
